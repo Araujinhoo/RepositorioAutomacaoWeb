@@ -23,7 +23,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 		driver.findElement(By.name ("username")).sendKeys("teste");
 		Thread.sleep(3000);
 		driver.findElement(By.name("password")).sendKeys("123456");
-		driver.quit();
+		//driver.quit();
 	}
 
 	@After

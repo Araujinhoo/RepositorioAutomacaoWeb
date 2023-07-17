@@ -34,7 +34,7 @@ public class CadastroAdvantage {
 		driver.findElement(By.id("field-salesRepEmployeeNumber")).sendKeys("565656");
 		driver.findElement(By.id("field-creditLimit")).sendKeys("6000");
 		driver.findElement(By.id("field-deleted")).sendKeys("no");
-		driver.findElement(By.id("form-button-save")).click();	
+		//driver.findElement(By.id("form-button-save")).click();	
 		Thread.sleep(5000);
 	}
 
